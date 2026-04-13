@@ -42,7 +42,7 @@ function createWindow() {
       }
     };
   });
-
+  mainWindow.setMenu(null);
   mainWindow.on('closed', () => {
     mainWindow = null;
   });
